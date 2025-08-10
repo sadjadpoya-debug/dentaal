@@ -1,0 +1,1 @@
+export async function GET(){ return new Response('<rss/>', {headers:{'content-type':'application/rss+xml'}}); }

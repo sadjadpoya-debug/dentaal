@@ -1,0 +1,9 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+:root{--brand-teal:#54AFCC;--brand-blue:#5677D5;--brand-violet:#6741DC;--ink-900:#0F172A;--slate-700:#334155;--slate-400:#94A3B8;--mist-100:#F1F5F9;}
+body{@apply text-slate-700 bg-white;} .gradient{background:linear-gradient(90deg,#54AFCC 0%,#5677D5 50%,#6741DC 100%);}
+.btn-primary{@apply rounded-full px-5 py-3 text-white shadow-soft; background:linear-gradient(90deg,#54AFCC 0%,#6741DC 100%);}
+.btn-secondary{@apply rounded-full px-5 py-3 border border-brand-blue text-brand-blue bg-white;}
+.container{@apply max-w-screen-xl mx-auto px-4;}
+h1{@apply text-4xl md:text-6xl font-semibold text-ink-900;} h2{@apply text-3xl md:text-4xl font-semibold text-ink-900;} h3{@apply text-2xl md:text-3xl font-semibold text-ink-900;}
+a{@apply text-brand-blue;}
+.prose :where(h2,h3){scroll-margin-top:6rem;}
